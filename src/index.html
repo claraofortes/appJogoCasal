@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erotic Adventures</title>
+    <link rel="stylesheet" type="text/css" href="./main.css" >
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet"/>-->
+    <link rel="icon" type="image/png" href="/public/icone.png" >
+    
+</head>
+<body>
+    
+
+    <section class="inicio-player-section">
+        <div class = "inicio-player">
+            <div class = "inicio-player-titulo"> 
+                Gire o dado e veja quem será o primeiro a começar?
+            </div>
+            <div>
+                Selecione a sua cor:
+            </div>
+            <div class="selecionador-cor-content">
+                <div class="selecionador-cor-player1">
+                    <p>Player 1:</p>
+                    <ul class = "player-cores" id="player1-colors">
+                        <li style="background-color: #430099;"></li>
+                        <li style="background-color: #004AAD;"></li>
+                        <li style="background-color: #770099;"></li>
+                        <li style="background-color: #99006A;"></li>
+                        <li style="background-color: #A62727;"></li>
+                    </ul>
+                </div>
+                <div class="selecionador-cor-player2">
+                    <p>Player 2:</p>
+                    <ul class = "player-cores" id="player2-colors">
+                        <li style="background-color: #430099;"></li>
+                        <li style="background-color: #004AAD;"></li>
+                        <li style="background-color: #770099;"></li>
+                        <li style="background-color: #99006A;"></li>
+                        <li style="background-color: #A62727;"></li>
+                    </ul>
+                </div>
+                <button id="inicio-player-button"><h1>Pronto</h1></button>
+            </div>
+            <div class = "inicio-player-bottom">
+                Obs.: Pressione Esc para sair
+            </div>
+            <div id = "alet-inicio-player"></div>
+        </div>
+    </section>
+
+    <section class = "tabuleiro-content">
+        <div class="texto-tabuleiro">
+            <div class="texto-tabuleiro-item">
+                O jogo começa aqui!
+            </div>
+            <div class="texto-tabuleiro-item text-bottom">
+                Mas não termina aqui!
+            </div>
+        </div>
+        <div id="tabuleiro">
+        </div>
+        <div class="dadoTabuleiro-content">
+            <div class = "dadoTabuleiro">
+                <div class = "face front"></div>
+                <div class = "face back"></div>
+                <div class = "face top"></div>
+                <div class = "face bottom"></div>
+                <div class = "face right"></div>
+                <div class = "face left"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="player-section">
+        <div id= "players">
+            <div id="player1"></div>
+            <div id="player2"></div>
+        </div>
+    </section>
+
+    <section id="modal-card"> 
+        <div class="bg"></div>
+        <div class = "card" id="card">
+            <div class="card-item back">
+                <img id= "fogo" src="../public/fogo3.gif" >
+                <img src = "../public/coração.svg" alt="My Happy SVG"/>
+                <div class="text-heart">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tempus sapien. Cras elementum ut sapien in viverra. Vivamus suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tempus sapien. Cras elementum ut sapien in viverra. Vivamus suscipit.</div>
+            </div>
+            
+            <div class="card-item front">
+                <img src = "../public/coração.svg" alt="My Happy SVG"/>
+                <img id="beijando" src = "../public/beijando.svg" alt="My Happy SVG"/>
+                <img id="sexo" src = "../public/sexo.svg" alt="My Happy SVG"/>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="modal-strip"> 
+        <div class="bg"></div>
+        <div class="strip-text">
+            Tire uma peça de roupa da preferência do seu parceiro
+            <div class="small">
+                ou beba uma dose
+            </div>
+        </div>
+    </section>
+
+    <section class="alerta-vez-section">
+        <div id="alerta-vez"></div>
+    </section>
+
+    <section id="modal-dados"> 
+        <div class="bg"></div>
+        <div class="modal-dados-content">
+            <h1> Dado do Amor</h1>
+            <div class="dado-acao-content">
+                <div class = "dados-text">Parte do corpo:</div>
+                <div class="dado-parte">
+                    <div class = "face front">
+                        <img src="../public/pescoco.svg">
+                    </div>
+                    <div class = "face back">
+                        <img src="../public/interrogacao.svg">
+                    </div>
+                    <div class = "face top">
+                        <img src="../public/boca.svg">
+                    </div>
+                    <div class = "face bottom">
+                        <img src="../public/ouvido.svg">
+                    </div>
+                    <div class = "face right">
+                        <img src="../public/peito.svg">
+                    </div>
+                    <div class = "face left">
+                        <img src="../public/perna.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="dado-acao-content">
+                <div class = "dados-text">Ação:</div>
+                <div class="dado-acao">
+                    <div class = "face front">
+                        <img src="../public/interrogacao.svg">
+                    </div>
+                    <div class = "face back">
+                        <p>beijar</p>
+                    </div>
+                    <div class = "face top">
+                        <p>morder</p>
+                    </div>
+                    <div class = "face bottom">
+                        <p>massagear</p>
+                    </div>
+                    <div class = "face right">
+                        <p>lamber</p>
+                    </div>
+                    <div class = "face left">
+                        <p>acariciar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="modal-exit">
+        <div class="bg"></div>
+        <div class="modal-exit-content">
+            <div>
+                <h1 class="modal-exit-titulo">Deseja Sair?</h1>
+                <div class = 'buttons-exit'>
+                    <button id="sair-button"><h1>Sair</h1></button>
+                    <button id="cancela-saida-button"><h1>Cancelar</h1></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="modal-exit-ganhou">
+        <div class="bg"></div>
+        <div class="modal-exit-content">
+            <div>
+                <h1 class="modal-exit-titulo">Ganhou o jogo</h1>
+                <h2>Seu parceiro(a) deve realizar um desejo seu</h2>
+                <div class = 'buttons-exit'>
+                    <button id="sair-button-ganhou"><h1>Sair</h1></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="alerta-vez-section">
+        <div id="alerta-vez"></div>
+    </section>
+    
+    
+</body>
+    <script src="./main.js"></script>
+</html>

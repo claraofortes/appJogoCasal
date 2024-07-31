@@ -1,0 +1,32 @@
+{
+  "name": "appjogocasal",
+  "version": "1.0.0",
+  "description": "jogo de casal",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "tester",
+    "novo": "electron-packager ./ EroticAdventures --platform-win32 --overwrite --icon='./public/icone.ico' --out=release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claraofortes/jogosCasal.git"
+  },
+  "keywords": [
+    "jogo tabuleiro",
+    "casal",
+    "picante"
+  ],
+  "author": "clarafortes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claraofortes/jogosCasal/issues"
+  },
+  "homepage": "https://github.com/claraofortes/jogosCasal#readme",
+  "devDependencies": {
+    "electron": "^31.3.0"
+  },
+  "dependencies": {
+    "electron-packager": "^17.1.2"
+  }
+}

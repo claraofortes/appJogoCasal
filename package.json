@@ -27,6 +27,7 @@
     "electron": "^31.3.0"
   },
   "dependencies": {
+    "appjogocasal": "file:",
     "electron-packager": "^17.1.2"
   }
 }
